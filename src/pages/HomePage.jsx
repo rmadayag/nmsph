@@ -150,8 +150,8 @@ function HomePage() {
         className='bg-white'>
         <div className='md:py-[70px] md:px-[10%] py-5 px-[16px] flex flex-col lg:flex-row gap-10'>
           {/* Left Side */}
-          <VideoPopUp />
-
+            <VideoPopUp />
+         
           {/* Right Side */}
           <div className='flex flex-col justify-center gap-5 w-full'>
             <h3 className='text-h3 font-semibold text-center md:text-h2 md:text-left text-accent'>NMS-PH is the operations center of New Media Services Pty. Ltd.</h3>
