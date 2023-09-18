@@ -134,7 +134,7 @@ function HomePage() {
               </p>
               <a href="/careers">
                 <button
-                  className="rounded-full bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
+                  className="rounded-30px bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
                   Join Our Team
                 </button>
               </a>
@@ -183,7 +183,7 @@ function HomePage() {
         className='bg-bgcolor'>
         <div className='container items-center mx-auto py-40 md:py-70'>
           <div class="flex flex-wrap mx-16px md:mx-100px">
-            <div className="md:rounded-lg rounded-sm bg-primary relative px-5 lg:max-w-5xl w-full ml-auto min-h-[24rem] flex lg:flex-row flex-col-reverse items-center">
+            <div className="md:rounded-30px rounded-sm bg-primary relative px-5 lg:max-w-5xl w-full ml-auto min-h-[24rem] flex lg:flex-row flex-col-reverse items-center">
               <Swiper className='md:rounded-lg rounded-sm w-full md:w-[454px] h-169 md:h-[240px] lg:absolute md:bottom-50 md:-left-60 object-cover shadow-shadow cursor-pointer'
                 spaceBetween={40}
                 centeredSlides={true}
