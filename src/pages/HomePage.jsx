@@ -352,7 +352,7 @@ function HomePage() {
           <div className='flex flex-col h-full justify-center gap-5'>
             <h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center text-accent'> We provide the best services for our customers</h3>
             <motion.div class="grid grid-cols-1 md:grid-cols-2 grid-flow-row-2 gap-5">
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
                 <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
                   <img src={messaging} class="mx-auto" />
                 </motion.div>
@@ -365,7 +365,7 @@ function HomePage() {
                   Build Messaging Platforms
                 </motion.h3>
 
-                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center mb-15 md:mb-20'
+                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -375,11 +375,11 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
-                <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
+                <motion.div className='md:w-1/2 mx-auto'>
                   <img src={design} class="mx-auto" />
                 </motion.div>
-                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center mb-15 md:mb-20'
+                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center '
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -388,7 +388,7 @@ function HomePage() {
                   Design & Develop Apps
                 </motion.h3>
 
-                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center mb-15 md:mb-20'
+                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -398,11 +398,11 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
-                <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
+                <motion.div className='md:w-1/2 mx-auto'>
                   <img src={moderate} class="mx-auto" />
                 </motion.div>
-                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center mb-15 md:mb-20'
+                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -411,7 +411,7 @@ function HomePage() {
                   Moderate & improve websites
                 </motion.h3>
 
-                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center mb-15 md:mb-20'
+                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -421,11 +421,11 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
-                <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
+                <motion.div className='md:w-1/2 mx-auto'>
                   <img src={voice} class="mx-auto" />
                 </motion.div>
-                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center mb-15 md:mb-20'
+                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -434,7 +434,7 @@ function HomePage() {
                   Voice customer service
                 </motion.h3>
 
-                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center mb-15 md:mb-20'
+                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -467,7 +467,7 @@ function HomePage() {
                   <img
                     src={`https://drive.google.com/uc?id=${images[0].id}`}
                     alt={images[0].name}
-                    className='block h-full w-full rounded-sm md:rounded-30px object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
+                    className='block h-full w-full rounded-15px md:rounded-30px object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
                     onClick={() => handleImageClick(index)}
                   />
                 )}
@@ -479,7 +479,7 @@ function HomePage() {
                   <img
                     src={`https://drive.google.com/uc?id=${image.id}`}
                     alt={image.name}
-                    className='block h-full w-full rounded-sm md:rounded-30px object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
+                    className='block h-full w-full rounded-15px md:rounded-30px object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
                     onClick={() => handleImageClick(index)}
                   />
                 </div>
