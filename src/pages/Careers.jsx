@@ -5,6 +5,17 @@ import Accordion from './Accordion';
 import { motion } from 'framer-motion'
 
 const Careers = () => {
+  // Define animation variants for left and right animations
+  const leftVariants = {
+    initial: { x: -100, opacity: 0 },
+    animate: { x: 0, opacity: 1, transition: { duration: 1 } },
+  };
+
+  const rightVariants = {
+    initial: { x: 100, opacity: 0 },
+    animate: { x: 0, opacity: 1, transition: { duration: 1 } },
+  };
+
   const faqItems1 = [
     {
       question: 'Chat Support Representative',
@@ -65,61 +76,47 @@ const Careers = () => {
       question: 'Spanish Account Manager',
       answer: 'Responsible for maintaining relations and communication with Spanish clientele and ensures that they receive regular updates from the company.',
     },
-    
+
     // Add more FAQ items
   ];
 
   return (
     <>
-      <section
+      <motion.section
         id="careers"
-        className='bg-center bg-cover bg-banner min-h-[209px] lg:h-[404px] bg-no-repeat relative mt-[64px] lg:mt-[64px]'>
-        <div className='container flex flex-col-reverse items-center mx-auto space-y-0 md:space-y-0 md:flex-row py-[40px] lg:py-[100px]'>
-
-          {/* Left Item */}
-          <div className='flex flex-col md:w-1/2 mx-16px md:ml-100px'>
-            <motion.h1 className='text-h2 font-semibold text-left md:text-display md:text-left text-white '
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 5, ease: 'easeInOut' }}
-            >
-              Careers
-            </motion.h1>
-
-            <motion.p className='max-w-xl text-left md:text-left text-white text-14 md:text-16 my-15 md:my-20'
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 2, ease: 'easeInOut' }}
-            >
-              New Media Services is an Information Technology Company focusing on back-end operations for small, medium and large-scale companies.Join our team and find the job most suited to your talents!
-            </motion.p>
-
+        initial="initial"
+        animate="animate"
+        variants={leftVariants} // Apply left animation
+        className='bg-center bg-cover bg-banner h-[400px] lg:h-[500px] bg-no-repeat relative'>
+        <div className='w-full h-screen'>
+          <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
+            <div className='md:left-[10%] max-w-[530px] m-auto absolute p-4'>
+              <h1 className='md:text-display text-h2 font-semibold text-left text-white'>
+                Careers
+              </h1>
+              <p className='max-w-[600px] text-white text-14 md:text-16 py-5'>
+                New Media Services is an Information Technology Company focusing on back-end operations for small, medium and large-scale companies.Join our team and find the job most suited to your talents!
+              </p>
+            </div>
           </div>
         </div>
-      </section>
+      </motion.section>
 
-      <section className='bg-bgcolor'>
-        <div className='container flex flex-col items-center mx-auto space-y-0 md:space-y-0 md:flex-row py-40 md:py-70'>
-          {/* Image */}
-          <div class="relative md:w-1/2 mx-16px md:ml-100px mb-15">
-            <img src={careers} />
+      <motion.section
+        initial="initial"
+        animate="animate"
+        variants={rightVariants} // Apply left animation
+        className='bg-white'>
+        <div className='md:py-[70px] md:px-[10%] py-5 px-[16px] grid lg:grid-cols-2 gap-10'>
+          {/* Left Side */}
+          <div>
+            <img className="w-full hover:scale-95 transform transition-transform duration-300 ease-in" src={careers} />
           </div>
-
-          {/* Left Item */}
-          <div className='flex flex-col md:w-1/2 mx-16px md:mr-100px w-full'>
-
-            <motion.h2 className='text-h3 font-semibold text-center md:text-h2 md:text-left text-accent md:mb-20 mb-15'
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 2, ease: 'easeInOut' }}
-            >
-              Features and Benefits
-            </motion.h2>
-            <motion.div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="mx-16px md:mx-0">
+          {/* Right Side */}
+          <div className='flex flex-col h-full justify-center gap-5'>
+            <h3 className='text-h3 font-semibold text-center md:text-h2 md:text-left text-accent'>Features and Benefits</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
                 <div className='flex flex-row items-center gap-1 mb-15 md:mb-20'>
                   <img src={check} />
                   <p className='text-center md:text-left text-accent'>
@@ -152,7 +149,7 @@ const Careers = () => {
                 </div>
               </div>
 
-              <div className="mx-16px md:mx-0">
+              <div>
                 <div className='flex flex-row items-center gap-1 mb-15 md:mb-20'>
                   <img src={check} />
                   <p className='text-center md:text-left text-accent'>
@@ -178,53 +175,45 @@ const Careers = () => {
                   </p>
                 </div>
               </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      <section className='bg-bgcolor'>
-        <div className='container items-center mx-auto py-40 md:py-70'>
-          <motion.h2 className='text-h3 font-semibold text-center md:text-h2 md:text-center text-accent mb-15 md:mb-20'
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 2, ease: 'easeInOut' }}
-          >
-            Available Position
-          </motion.h2>
-
-          <motion.div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-
-            <div class="flex flex-col mx-16px md:ml-100px space-y-4">
-            <div className="container mx-auto">
-                <Accordion items={faqItems1} />
-              </div>
-            </div>
-
-            <div class="relative mx-16px md:mr-100px mb-15 space-y-4">
-            <div className="container mx-auto">
-                <Accordion items={faqItems2} />
-              </div>
-            </div>
-
-          </motion.div>
-
-          <div className='container items-center mx-auto'>
-            <div className='flex justify-center md:justify-center mt-20 md:mt-40'>
-              <a href="https://nmsrecruitment.nmsapps.com/"><motion.button
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -20 }}
-                transition={{ duration: 2, ease: 'easeInOut' }}
-                className="rounded-lg bg-primary text-white text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80"
-              >
-                Apply Now
-              </motion.button></a>
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
+
+      <motion.section
+        initial="initial"
+        animate="animate"
+        variants={leftVariants} // Apply left animation
+        className='bg-secondary'>
+        <div className='md:py-[70px] md:px-[10%] py-5 px-[16px] grid lg:grid-cols-1'>
+          <div className='flex flex-col h-full justify-center gap-5'>
+            <h3 className='text-h3 font-semibold text-center md:text-h2 md:text-center text-accent'>Available Position</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-2">
+
+              <div class="flex flex-col gap-5">
+                <div className="container mx-auto">
+                  <Accordion items={faqItems1} />
+                </div>
+              </div>
+
+              <div class="relative space-y-4">
+                <div className="container mx-auto">
+                  <Accordion items={faqItems2} />
+                </div>
+              </div>
+
+            </div>
+            <div className='flex justify-center'>
+              <a href="https://nmsrecruitment.nmsapps.com/">
+                <button
+                  className="rounded-lg font-semibold bg-primary text-white text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
+                  Apply Now
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </motion.section>
     </>
   );
 };

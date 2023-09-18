@@ -148,10 +148,10 @@ function HomePage() {
         animate="animate"
         variants={rightVariants} // Apply right animation
         className='bg-white'>
-        <div className='md:py-[70px] md:px-[10%] py-5 px-[16px] flex flex-col lg:flex-row gap-20'>
+        <div className='md:py-[70px] md:px-[10%] py-5 px-[16px] flex flex-col lg:flex-row gap-10'>
           {/* Left Side */}
-            <VideoPopUp />
-         
+          <VideoPopUp />
+
           {/* Right Side */}
           <div className='flex flex-col justify-center gap-5 w-full'>
             <h3 className='text-h3 font-semibold text-center md:text-h2 md:text-left text-accent'>NMS-PH is the operations center of New Media Services Pty. Ltd.</h3>
@@ -539,63 +539,62 @@ function HomePage() {
       </motion.section>
 
       <motion.section
-  initial="initial"
-  animate="animate"
-  variants={rightVariants} // Apply left animation
-  className='bg-secondary'
->
-  <div className='bg-secondary py-10 md:py-40'>
-    <div className='container items-center mx-auto'>
-      <motion.h2
-        className='text-h3 font-semibold text-center md:text-h2 md:text-center text-accent mb-5 md:mb-10'
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -20 }}
-        transition={{ duration: 2, ease: 'easeInOut' }}
-      >
-        Testimonial
-      </motion.h2>
+        initial="initial"
+        animate="animate"
+        variants={rightVariants} // Apply left animation
+        className='bg-secondary'>
+        <div className='bg-secondary py-40 md:py-70'>
+          <div className='container items-center mx-auto'>
+            <motion.h2 className='text-h3 font-semibold text-center md:text-h2 md:text-center text-accent mb-15 md:mb-20'
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 2, ease: 'easeInOut' }}
+            >
+              Testimonial
+            </motion.h2>
 
-      <motion.p
-        className='text-14 md:text-16 text-center md:text-center text-accent mb-5 md:mb-10'
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -20 }}
-        transition={{ duration: 2, ease: 'easeInOut' }}
-      >
-        Our Happy Employees Tell About Us
-      </motion.p>
-    </div>
-
-    <div className='flex items-center relative text-accent w-screen'>
-      <Swiper
-        modules={[EffectCoverflow, Pagination]}
-        effect={'coverflow'}
-        loop={true}
-        spaceBetween={40}
-        slidesPerView={3}
-        pagination={{
-          clickable: true,
-          dynamicBullets: true,
-        }}
-        centeredSlides={true}
-        grabCursor={true}
-        coverflowEffect={{
-          rotate: 0,
-          slideShadows: false,
-        }}
-        className="coverflow"
-        breakpoints={{
-          // Responsive breakpoints
-          375: {
-            slidesPerView: 1, // Increase slidesPerView for larger screens
-          },
-          1024: {
-            slidesPerView: 3, // Further increase slidesPerView for larger screens
-          },
-        }}
-      >
-           <SwiperSlide>
+            <motion.p className='text-14 md:text-16 text-center md:text-center text-accent mb-15 md:mb-20'
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 2, ease: 'easeInOut' }}
+            >
+              Our Happy Employees Tell About Us
+            </motion.p>
+          </div>
+          <div className='flex items-center relative text-accent w-screen'>
+            <Swiper
+              modules={[EffectCoverflow, Pagination]}
+              effect={'coverflow'}
+              loop={true}
+              spaceBetween={40}
+              slidesPerView={3}
+              pagination={{
+                clickable: true,
+                dynamicBullets: true,
+              }}
+              centeredSlides={true}
+              grabCursor={true}
+              coverflowEffect={{
+                rotate: 0,
+                slideShadows: false,
+              }}
+              className="coverflow"
+              breakpoints={{
+                // Responsive breakpoints
+                375: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+              }}
+            >
+              <SwiperSlide>
                 <div class="rounded-lg bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
                   <div class="flex items-center">
                     <img
@@ -642,11 +641,11 @@ function HomePage() {
                   </div>
                 </div>
               </SwiperSlide>
-      </Swiper>
-    </div>
-  </div>
-</motion.section>
-
+              .
+            </Swiper>
+          </div>
+        </div>
+      </motion.section>
 
     </>
   )

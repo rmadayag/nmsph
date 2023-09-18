@@ -161,13 +161,14 @@ const GalleryFromDrive = () => {
           <h2 className="font-semibold mt-2 text-h3 md:text-h2 text-accent">{selectedYear}</h2>
           <div className="grid grid-cols-3 gap-4 mt-4">
             {images.slice(0, page * itemsPerPage).map((image) => (
-              <img
-              src={`https://drive.google.com/uc?id=${image.id}`}
-              alt={image.name}
-              className="w-full md:rounded-lg rounded-sm md:h-[200px] h-[76px] object-cover cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out"
-              onClick={() => openImageViewer(image)}
-              style={selectedImage === image ? clickableImageStyles : imageStyles}
-            />
+              <div key={image.id}>
+                <img
+                  src={`https://drive.google.com/uc?id=${image.id}`}
+                  alt={image.name}
+                  className="w-full md:rounded-lg rounded-sm md:h-[200px] h-[76px] object-cover cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out"
+                  onClick={() => openImageViewer(image)}
+                />
+              </div>
             ))}
           </div>
         </div>
@@ -180,13 +181,14 @@ const GalleryFromDrive = () => {
           </h2>
           <div className="grid grid-cols-3 gap-4 mt-4">
             {images.slice(0, page * itemsPerPage).map((image) => (
-              <img
-              src={`https://drive.google.com/uc?id=${image.id}`}
-              alt={image.name}
-              className="w-full md:rounded-lg rounded-sm md:h-[200px] h-[76px] object-cover cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out"
-              onClick={() => openImageViewer(image)}
-              style={selectedImage === image ? clickableImageStyles : imageStyles}
-            />
+              <div key={image.id}>
+                <img
+                  src={`https://drive.google.com/uc?id=${image.id}`}
+                  alt={image.name}
+                  className="w-full md:rounded-lg rounded-sm md:h-[200px] h-[76px] object-cover cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out"
+                  onClick={() => openImageViewer(image)}
+                />
+              </div>
             ))}
           </div>
         </div>

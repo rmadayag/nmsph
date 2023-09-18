@@ -89,15 +89,15 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     if (!isFormValid() || isSubmitting) {
       console.error('Form is not valid or submission is in progress');
       // Display an error message to the user or handle the validation error
       return;
     }
-  
+
     setIsSubmitting(true);
-  
+
     // Send the email using EmailJS
     emailjs
       .send(
@@ -111,7 +111,7 @@ const Contact = () => {
           console.log('Email sent successfully:', result);
           // You can display a success message or redirect the user here
           setFormSubmitted(true);
-  
+
           // Reset form data after successful submission
           setFormData({
             name: '',
@@ -119,7 +119,7 @@ const Contact = () => {
             phoneNumber: '',
             message: '',
           });
-  
+
           // Reset the formSubmitted state to allow another submission
           setTimeout(() => {
             setFormSubmitted(false);
@@ -134,7 +134,7 @@ const Contact = () => {
         setIsSubmitting(false);
       });
   };
-  
+
   return (
     <>
       <motion.section
@@ -279,9 +279,6 @@ const Contact = () => {
           </div>
         </div>
       </motion.section>
-
-
-
 
     </>
   );

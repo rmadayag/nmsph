@@ -32,27 +32,3 @@ textarea {
 ::selection {
   @apply bg-primary;
 }
-.testimonial-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 40px;
-}
-
-.testimonial-card {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.testimonial-text {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.testimonial-name {
-  font-size: 16px;
-  color: #666666;
-}
-

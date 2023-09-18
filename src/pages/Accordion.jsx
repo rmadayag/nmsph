@@ -12,20 +12,19 @@ const Accordion = ({ items }) => {
   };
 
   return (
-    <div className="space-y-2">
+    <div className="space-y-5">
       {items.map((item, index) => (
         <div
           key={index}
-          className={`p-5 rounded-lg shadow-shadow  ${
-            activeIndex === index ? 'bg-primary' : 'bg-white'
-          }`}
+          className={`p-5 rounded-lg shadow-shadow  ${activeIndex === index ? 'bg-primary' : 'bg-white'
+            }`}
           onClick={() => toggleAccordion(index)}
+          style={{ cursor: 'pointer' }} // Add this style for the cursor
         >
           <div className="flex justify-between items-center">
             <h3
-              className={`md:text-16 text-14 font-semibold ${
-                activeIndex === index ? 'text-white' : 'text-black'
-              }`}
+              className={`md:text-16 text-14 font-semibold ${activeIndex === index ? 'text-white' : 'text-black'
+                }`}
             >
               {item.question}
             </h3>
