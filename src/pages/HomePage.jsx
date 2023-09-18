@@ -210,7 +210,7 @@ function HomePage() {
                 }}
               >
                 <SwiperSlide>
-                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Equal Opportunity Hiring
@@ -223,7 +223,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Strong Company Culture
@@ -236,7 +236,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Forward-Thinking
@@ -249,7 +249,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Knowledge Development
@@ -262,7 +262,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Harmony in Diversity
@@ -275,7 +275,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-5px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Work Hard, Party Harder
@@ -288,7 +288,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Earning and Giving Back
@@ -301,7 +301,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Comfortable Work Environment
