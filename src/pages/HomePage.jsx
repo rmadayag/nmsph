@@ -184,7 +184,7 @@ function HomePage() {
         <div className='container items-center mx-auto py-40 md:py-70'>
           <div class="flex flex-wrap mx-16px md:mx-100px">
             <div className="md:rounded-30px rounded-sm bg-primary relative px-5 lg:max-w-5xl w-full ml-auto min-h-[24rem] flex lg:flex-row flex-col-reverse items-center">
-              <Swiper className='md:rounded-lg rounded-sm w-full md:w-[454px] h-169 md:h-[240px] lg:absolute md:bottom-50 md:-left-60 object-cover shadow-shadow cursor-pointer'
+              <Swiper className='md:rounded-30px rounded-sm w-full md:w-[454px] h-169 md:h-[240px] lg:absolute md:bottom-50 md:-left-60 object-cover shadow-shadow cursor-pointer'
                 spaceBetween={40}
                 centeredSlides={true}
                 autoplay={{
@@ -210,7 +210,7 @@ function HomePage() {
                 }}
               >
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Equal Opportunity Hiring
@@ -223,7 +223,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Strong Company Culture
@@ -236,7 +236,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Forward-Thinking
@@ -249,7 +249,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Knowledge Development
@@ -262,7 +262,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Harmony in Diversity
@@ -275,7 +275,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Work Hard, Party Harder
@@ -288,7 +288,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Earning and Giving Back
@@ -301,7 +301,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Comfortable Work Environment
@@ -325,7 +325,7 @@ function HomePage() {
               <img
                 src={lifestyles}
                 alt=""
-                className="lg:h-[25rem] h-80 lg:absolute bottom-0 -right-0 object-cover rounded-lg"
+                className="lg:h-[25rem] h-80 lg:absolute bottom-0 -right-0 object-cover rounded-30px"
               />
             </div>
 
@@ -352,7 +352,7 @@ function HomePage() {
           <div className='flex flex-col h-full justify-center gap-5'>
             <h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center text-accent'> We provide the best services for our customers</h3>
             <motion.div class="grid grid-cols-1 md:grid-cols-2 grid-flow-row-2 gap-5">
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-lg shadow-shadow py-20 md:py-20 px-20 md:px-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
                 <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
                   <img src={messaging} class="mx-auto" />
                 </motion.div>
@@ -375,7 +375,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-lg shadow-shadow py-20 md:py-20 px-20 md:px-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
                 <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
                   <img src={design} class="mx-auto" />
                 </motion.div>
@@ -398,7 +398,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-lg shadow-shadow py-20 md:py-20 px-20 md:px-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
                 <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
                   <img src={moderate} class="mx-auto" />
                 </motion.div>
@@ -421,7 +421,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-lg shadow-shadow py-20 md:py-20 px-20 md:px-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
                 <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
                   <img src={voice} class="mx-auto" />
                 </motion.div>
@@ -467,7 +467,7 @@ function HomePage() {
                   <img
                     src={`https://drive.google.com/uc?id=${images[0].id}`}
                     alt={images[0].name}
-                    className='block h-full w-full rounded-sm md:rounded-lg object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
+                    className='block h-full w-full rounded-sm md:rounded-30px object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
                     onClick={() => handleImageClick(index)}
                   />
                 )}
@@ -479,7 +479,7 @@ function HomePage() {
                   <img
                     src={`https://drive.google.com/uc?id=${image.id}`}
                     alt={image.name}
-                    className='block h-full w-full rounded-sm md:rounded-lg object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
+                    className='block h-full w-full rounded-sm md:rounded-30px object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
                     onClick={() => handleImageClick(index)}
                   />
                 </div>
@@ -511,7 +511,7 @@ function HomePage() {
                         </svg>
                       </button>
                     )}
-                    <button onClick={handleCloseModal} type="button" class="absolute -right-10 -top-10 text-white bg-primary hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="popup-modal">
+                    <button onClick={handleCloseModal} type="button" class="absolute -right-10 -top-10 text-white bg-primary hover:bg-gray-200 hover:text-gray-900 rounded-30px text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="popup-modal">
                       <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                       </svg>
@@ -530,7 +530,7 @@ function HomePage() {
           <div className='flex justify-center'>
             <a href='/gallery'>
               <button
-                className="rounded-lg font-semibold bg-primary text-white text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
+                className="rounded-30px font-semibold bg-primary text-white text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
                 View more
               </button>
             </a>
@@ -595,7 +595,7 @@ function HomePage() {
               }}
             >
               <SwiperSlide>
-                <div class="rounded-lg bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
+                <div class="rounded-30px bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
                   <div class="flex items-center">
                     <img
                       src={employee1}
@@ -611,7 +611,7 @@ function HomePage() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div class="rounded-lg bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
+                <div class="rounded-30px bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
                   <div class="flex items-center">
                     <img
                       src={employee2}
@@ -627,7 +627,7 @@ function HomePage() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div class="rounded-lg bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
+                <div class="rounded-30px bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
                   <div class="flex items-center">
                     <img
                       src={employee3}
