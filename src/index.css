@@ -1,3 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  @apply font-Poppins scroll-smooth;
+}
+body {
+  @apply box-border bg-bgcolor text-gray-100;
+}
+.btn-primary {
+  @apply bg-primary font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
+}
+
+.aboutImg::after {
+  @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute -z-10;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-primary;
+}
+
+input,
+textarea {
+  @apply bg-white/30 outline-none rounded-lg p-3;
+}
+::placeholder {
+  @apply text-lg;
+}
+
+::selection {
+  @apply bg-primary;
+}
+.testimonial-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial-name {
+  font-size: 16px;
+  color: #666666;
+}
+
