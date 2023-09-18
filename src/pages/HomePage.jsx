@@ -167,7 +167,7 @@ function HomePage() {
             <div>
               <a href='/about'>
                 <button
-                  className="rounded-lg font-semibold bg-primary text-white text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
+                  className="rounded-30px font-semibold bg-primary text-white text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
                   Read more
                 </button>
               </a>
