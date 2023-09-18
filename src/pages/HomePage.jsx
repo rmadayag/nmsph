@@ -183,8 +183,8 @@ function HomePage() {
         className='bg-bgcolor'>
         <div className='container items-center mx-auto py-40 md:py-70'>
           <div class="flex flex-wrap mx-16px md:mx-100px">
-            <div className="rounded-full bg-primary relative px-5 lg:max-w-5xl w-full ml-auto min-h-[24rem] flex lg:flex-row flex-col-reverse items-center">
-              <Swiper className='rounded-full w-full md:w-[454px] h-169 md:h-[240px] lg:absolute md:bottom-50 md:-left-60 object-cover shadow-shadow cursor-pointer'
+            <div className="md:rounded-30px rounded-15px bg-primary relative px-5 lg:max-w-5xl w-full ml-auto min-h-[24rem] flex lg:flex-row flex-col-reverse items-center">
+              <Swiper className='md:rounded-30px rounded-15px w-full md:w-[454px] h-169 md:h-[240px] lg:absolute md:bottom-50 md:-left-60 object-cover shadow-shadow cursor-pointer'
                 spaceBetween={40}
                 centeredSlides={true}
                 autoplay={{
@@ -318,7 +318,7 @@ function HomePage() {
                 <h2 className="text-h3 md:text-h2 font-semibold text-white md:mx-60 md:w-2/5">
                   Modern People with Modern Lifestyles
                 </h2>
-                <p className="lg:text-left text-justify max-w-lg text-14 md:text-16 md:my-20 my-15 text-white leading-6 md:mx-60 md:w-2/5">
+                <p className="lg:text-left text-justify max-w-lg text-14 md:text-16 md:my-20 text-white leading-6 md:mx-60 md:w-2/5">
                   "Be part of our constantly growing family and help us by becoming a valued building block for our innovative, unique and progressive services."
                 </p>
               </div>
