@@ -39,8 +39,8 @@ export default withMT({
         'semibold': '600',
       },
       borderRadius: {
-        'sm': '15px',
-        'lg': '30px',
+        '15px': '15px',
+        '30px': '30px',
         'full': '9999px',
       },
       // Button
@@ -53,7 +53,6 @@ export default withMT({
         'lg-button': '56px',
         '834': '834px',
         '226': '226px',
-
 
       },
       // Button
