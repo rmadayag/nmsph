@@ -352,7 +352,7 @@ function HomePage() {
           <div className='flex flex-col h-full justify-center gap-5'>
             <h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center text-accent'> We provide the best services for our customers</h3>
             <motion.div class="grid grid-cols-1 md:grid-cols-2 grid-flow-row-2 gap-5">
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow md:h-[300px]'>
                 <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
                   <img src={messaging} class="mx-auto" />
                 </motion.div>
@@ -375,7 +375,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow md:h-[300px]'>
                 <motion.div className='md:w-1/2 mx-auto'>
                   <img src={design} class="mx-auto" />
                 </motion.div>
@@ -398,7 +398,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow md:h-[300px]'>
                 <motion.div className='md:w-1/2 mx-auto'>
                   <img src={moderate} class="mx-auto" />
                 </motion.div>
@@ -421,7 +421,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow py-20 md:py-20 px-20 md:px-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow md:h-[300px]'>
                 <motion.div className='md:w-1/2 mx-auto'>
                   <img src={voice} class="mx-auto" />
                 </motion.div>
