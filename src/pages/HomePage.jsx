@@ -184,7 +184,7 @@ function HomePage() {
         <div className='container items-center mx-auto py-40 md:py-70'>
           <div class="flex flex-wrap mx-16px md:mx-100px">
             <div className="rounded-full bg-primary relative px-5 lg:max-w-5xl w-full ml-auto min-h-[24rem] flex lg:flex-row flex-col-reverse items-center">
-              <Swiper className='md:rounded-30px rounded-15px w-full md:w-[454px] h-169 md:h-[240px] lg:absolute md:bottom-50 md:-left-60 object-cover shadow-shadow cursor-pointer'
+              <Swiper className='rounded-full w-full md:w-[454px] h-169 md:h-[240px] lg:absolute md:bottom-50 md:-left-60 object-cover shadow-shadow cursor-pointer'
                 spaceBetween={40}
                 centeredSlides={true}
                 autoplay={{
