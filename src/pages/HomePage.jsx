@@ -315,8 +315,10 @@ function HomePage() {
 
               </Swiper>
               <div>
-              
-                <p className="lg:text-left text-justify text-14 md:text-16 text-white">
+                <h2 className="text-h3 md:text-h2 font-semibold text-white md:mx-60 md:w-2/5">
+                  Modern People with Modern Lifestyles
+                </h2>
+                <p className="lg:text-left text-justify max-w-lg text-14 md:text-16 text-white leading-6 md:mx-60 md:w-2/5">
                   "Be part of our constantly growing family and help us by becoming a valued building block for our innovative, unique and progressive services."
                 </p>
               </div>
