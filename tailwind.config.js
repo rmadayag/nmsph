@@ -1,14 +1,14 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+export default withMT({
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      
       backgroundImage: {
-        'hero': "url('/hero.png')",
+        'hero': "url('/hero.svg')",
         'banner': "url('/inner-banner.png')",
+        'service': "url('/illustration.svg')",
       },
       screens: {
         sm: '480px',
@@ -75,7 +75,6 @@ export default {
         '10': '10px',
 
       },
-      
       margin: {
         '100px': '100px',
         '16px': '16px',
@@ -85,8 +84,8 @@ export default {
         '15': '15px',
         '10': '10px',
       },
-      
+
     },
   },
   plugins: [],
-}
+});
