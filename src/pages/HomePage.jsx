@@ -375,7 +375,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow md:h-[300px]'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow  p-10 md:h-[300px]'>
                 <motion.div className='md:w-1/2 mx-auto'>
                   <img src={design} class="mx-auto" />
                 </motion.div>
@@ -398,7 +398,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow md:h-[300px]'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow  p-10 md:h-[300px]'>
                 <motion.div className='md:w-1/2 mx-auto'>
                   <img src={moderate} class="mx-auto" />
                 </motion.div>
@@ -421,7 +421,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow md:h-[300px]'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow  p-10 md:h-[300px]'>
                 <motion.div className='md:w-1/2 mx-auto'>
                   <img src={voice} class="mx-auto" />
                 </motion.div>
@@ -545,7 +545,7 @@ function HomePage() {
         className='bg-secondary'>
         <div className='bg-secondary py-40 md:py-70'>
           <div className='container items-center mx-auto'>
-            <motion.h2 className='text-h3 font-semibold text-center md:text-h2 md:text-center text-accent mb-15 md:mb-20'
+            <motion.h2 className='text-h3 font-semibold text-center md:text-h2 md:text-center text-accent'
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
@@ -554,7 +554,7 @@ function HomePage() {
               Testimonial
             </motion.h2>
 
-            <motion.p className='text-14 md:text-16 text-center md:text-center text-accent mb-15 md:mb-20'
+            <motion.p className='text-14 md:text-16 text-center md:text-center text-accent'
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
