@@ -165,7 +165,7 @@ const GalleryFromDrive = () => {
                 <img
                   src={`https://drive.google.com/uc?id=${image.id}`}
                   alt={image.name}
-                  className="w-full md:rounded-lg rounded-sm md:h-[200px] h-[76px] object-cover cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out"
+                  className="w-full md:rounded-30px rounded-15px md:h-[200px] h-[76px] object-cover cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out"
                   onClick={() => openImageViewer(image)}
                 />
               </div>
@@ -185,7 +185,7 @@ const GalleryFromDrive = () => {
                 <img
                   src={`https://drive.google.com/uc?id=${image.id}`}
                   alt={image.name}
-                  className="w-full md:rounded-lg rounded-sm md:h-[200px] h-[76px] object-cover cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out"
+                  className="w-full md:rounded-30px rounded-15px md:h-[200px] h-[76px] object-cover cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out"
                   onClick={() => openImageViewer(image)}
                 />
               </div>
@@ -201,7 +201,7 @@ const GalleryFromDrive = () => {
               <img
                 src={`https://drive.google.com/uc?id=${image.id}`}
                 alt={image.name}
-                className="w-full md:rounded-lg rounded-sm md:h-[200px] h-[76px] object-cover cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out"
+                className="w-full md:rounded-30px rounded-15px md:h-[200px] h-[76px] object-cover cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out"
                 onClick={() => openImageViewer(image)}
                 style={selectedImage === image ? clickableImageStyles : imageStyles}
               />
@@ -219,7 +219,7 @@ const GalleryFromDrive = () => {
           !isLoadMoreHidden && (
             <button
               onClick={loadMoreImages}
-              className="rounded-lg bg-secondary text-accent font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary hover:text-white"
+              className="rounded-30px bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80"
             >
               Load More
             </button>
@@ -231,7 +231,7 @@ const GalleryFromDrive = () => {
         <div className="fixed inset-0 flex items-center justify-center z-[999]">
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75"></div>
           <div className="relative">
-            <button onClick={closeImageViewer} type="button" class="absolute -right-10 -top-10 text-white bg-primary hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="popup-modal">
+            <button onClick={closeImageViewer} type="button" class="absolute -right-10 -top-10 text-white bg-primary hover:bg-gray-200 hover:text-gray-900 rounded-30px text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="popup-modal">
               <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
               </svg>
