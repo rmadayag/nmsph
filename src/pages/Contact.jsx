@@ -266,7 +266,7 @@ const Contact = () => {
                   <div className="text-left">
                     <button
                       type="submit"
-                      className={`rounded-30px bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80 ${!isFormValid() || isSubmitting || formSubmitted ? 'cursor-not-allowed opacity-50' : ''
+                      className={`bg-primary rounded-30px text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button ${!isFormValid() || isSubmitting || formSubmitted ? 'cursor-not-allowed' : ''
                         }`}
                       disabled={!isFormValid() || isSubmitting || formSubmitted}
                     >
