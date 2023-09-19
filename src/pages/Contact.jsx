@@ -89,15 +89,15 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     if (!isFormValid() || isSubmitting) {
       console.error('Form is not valid or submission is in progress');
       // Display an error message to the user or handle the validation error
       return;
     }
-
+  
     setIsSubmitting(true);
-
+  
     // Send the email using EmailJS
     emailjs
       .send(
@@ -111,7 +111,7 @@ const Contact = () => {
           console.log('Email sent successfully:', result);
           // You can display a success message or redirect the user here
           setFormSubmitted(true);
-
+  
           // Reset form data after successful submission
           setFormData({
             name: '',
@@ -119,7 +119,7 @@ const Contact = () => {
             phoneNumber: '',
             message: '',
           });
-
+  
           // Reset the formSubmitted state to allow another submission
           setTimeout(() => {
             setFormSubmitted(false);
@@ -134,7 +134,7 @@ const Contact = () => {
         setIsSubmitting(false);
       });
   };
-
+  
   return (
     <>
       <motion.section
@@ -143,16 +143,14 @@ const Contact = () => {
         animate="animate"
         variants={leftVariants} // Apply left animation
         className='bg-center bg-cover bg-banner h-[400px] lg:h-[500px] bg-no-repeat relative'>
-        <div className='w-full h-screen'>
-          <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
-            <div className='md:left-[10%] max-w-[530px] m-auto absolute p-4'>
-              <h1 className='md:text-display text-h2 font-semibold text-left text-white'>
-                Contact Us
-              </h1>
-              <p className='max-w-[600px] text-white text-14 md:text-16 py-5'>
-                Get in touch and let us kno how we can help
-              </p>
-            </div>
+        <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
+          <div className='md:left-[10%] max-w-[530px] m-auto absolute p-4'>
+            <h1 className='text-h2 font-semibold text-left md:text-display md:text-left text-white '>
+              Contact Us
+            </h1>
+            <p className='max-w-xl text-left md:text-left text-white text-14 md:text-16 my-15 md:my-20'>
+              Get in touch and let us kno how we can help
+            </p>
           </div>
         </div>
       </motion.section>
@@ -172,15 +170,14 @@ const Contact = () => {
           <div className='grid md:grid-cols-2 gap-10'>
             {/* Image */}
             <div class="relative w-full">
-              <iframe className="md:w-full w-[350px] md:h-[620px] h-[357px] md:rounded-30px rounded-15px" frameborder="" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=nms%20baguio%20city+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
+              <iframe className="md:w-full w-[350px] md:h-[620px] h-[357px] md:rounded-lg rounded-sm" frameborder="" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=nms%20baguio%20city+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
             </div>
 
             {/* Left Item */}
             <div className='flex flex-col w-full'>
-              <div className="bg-bgcolor md:w-full w-full md:rounded-30px rounded-15px px-20 py-20 shadow-shadow mb-15 md:mb-0">
+              <div className="bg-bgcolor md:w-full w-full md:rounded-lg rounded-sm px-20 py-20 shadow-shadow mb-15 md:mb-0">
 
-             
-              <form onSubmit={handleSubmit} className="w-full mx-auto p-4">
+                <form onSubmit={handleSubmit} className="w-full mx-auto p-4">
                   <div className="mb-4">
                     <input
                       placeholder='Name'
@@ -282,6 +279,9 @@ const Contact = () => {
           </div>
         </div>
       </motion.section>
+
+
+
 
     </>
   );
