@@ -375,7 +375,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow  p-10'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow p-10'>
                 <motion.div className='md:w-1/2 mx-auto'>
                   <img src={design} class="mx-auto" />
                 </motion.div>
@@ -398,7 +398,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow  p-10 md:h-[300px]'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow  p-10'>
                 <motion.div className='md:w-1/2 mx-auto'>
                   <img src={moderate} class="mx-auto" />
                 </motion.div>
@@ -421,7 +421,7 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow  p-10 md:h-[300px]'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow  p-10'>
                 <motion.div className='md:w-1/2 mx-auto'>
                   <img src={voice} class="mx-auto" />
                 </motion.div>
