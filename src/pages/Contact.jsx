@@ -137,22 +137,20 @@ const Contact = () => {
   
   return (
     <>
-     <motion.section
-       id="contact"
+      <motion.section
+        id="contact"
         initial="initial"
         animate="animate"
         variants={leftVariants} // Apply left animation
         className='bg-center bg-cover bg-banner h-[400px] lg:h-[500px] bg-no-repeat relative'>
-        <div className='w-full h-screen'>
-          <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
-            <div className='md:left-[10%] max-w-[530px] m-auto absolute p-4'>
-              <h1 className='md:text-display text-h2 font-semibold text-left text-white'>
+        <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
+          <div className='md:left-[10%] max-w-[530px] m-auto absolute p-4'>
+            <h1 className='text-h2 font-semibold text-left md:text-display md:text-left text-white '>
               Contact Us
-              </h1>
-              <p className='max-w-[600px] text-white text-14 md:text-16 py-5'>
+            </h1>
+            <p className='max-w-xl text-left md:text-left text-white text-14 md:text-16 my-15 md:my-20'>
               Get in touch and let us kno how we can help
-              </p>
-            </div>
+            </p>
           </div>
         </div>
       </motion.section>
@@ -268,7 +266,7 @@ const Contact = () => {
                   <div className="text-left">
                     <button
                       type="submit"
-                      className={`rounded-30px bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button ${!isFormValid() || isSubmitting || formSubmitted ? 'cursor-not-allowed' : ''
+                      className={`rounded-30px bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button ${!isFormValid() || isSubmitting || formSubmitted ? 'cursor-not-allowed' : 'bg-primary'
                         }`}
                       disabled={!isFormValid() || isSubmitting || formSubmitted}
                     >
