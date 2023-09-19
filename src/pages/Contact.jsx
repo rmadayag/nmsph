@@ -177,7 +177,7 @@ const Contact = () => {
 
             {/* Left Item */}
             <div className='flex flex-col w-full'>
-              <div className="bg-bgcolor md:w-full w-full md:rounded-30px rounded-15px px-20 py-20 shadow-shadow mb-15 md:mb-0">
+              <div className="bg-bgcolor md:w-full w-full md:rounded-30px rounded-15px p-10 shadow-shadow mb-15 md:mb-0">
 
                 <form onSubmit={handleSubmit} className="w-full mx-auto p-4">
                   <div className="mb-4">
