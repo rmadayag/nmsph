@@ -117,25 +117,25 @@ const Careers = () => {
             <h3 className='text-h3 font-semibold text-center md:text-h2 md:text-left text-accent'>Features and Benefits</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <div className='flex flex-row items-center gap-1 mb-15 md:mb-20'>
+                <div className='flex flex-row items-center gap-1 mb-15 md:mb-5'>
                   <img src={check} />
                   <p className='text-center md:text-left text-accent'>
                     40 Hours Per Week
                   </p>
                 </div>
-                <div className='flex flex-row items-center gap-1 mb-15 md:mb-20'>
+                <div className='flex flex-row items-center gap-1 mb-15 md:mb-5'>
                   <img src={check} />
                   <p className='text-center md:text-left text-accent'>
                     Free fruits and snacks daily
                   </p>
                 </div>
-                <div className='flex flex-row items-center gap-1 mb-15 md:mb-20'>
+                <div className='flex flex-row items-center gap-1 mb-15 md:mb-5'>
                   <img src={check} />
                   <p className='text-center md:text-left text-accent'>
                     Fun Work Environment
                   </p>
                 </div>
-                <div className='flex flex-row items-center gap-1 mb-15 md:mb-20'>
+                <div className='flex flex-row items-center gap-1 mb-15 md:mb-5'>
                   <img src={check} />
                   <p className='text-center md:text-left text-accent'>
                     Paid SSS, HDMF, PhilHealth
@@ -150,19 +150,19 @@ const Careers = () => {
               </div>
 
               <div>
-                <div className='flex flex-row items-center gap-1 mb-15 md:mb-20'>
+                <div className='flex flex-row items-center gap-1 mb-15 md:mb-5'>
                   <img src={check} />
                   <p className='text-center md:text-left text-accent'>
                     Flexible hours
                   </p>
                 </div>
-                <div className='flex flex-row items-center gap-1 mb-15 md:mb-20'>
+                <div className='flex flex-row items-center gap-1 mb-15 md:mb-5'>
                   <img src={check} />
                   <p className='text-center md:text-left text-accent'>
                     Work anywhere
                   </p>
                 </div>
-                <div className='flex flex-row items-center gap-1 mb-15 md:mb-20'>
+                <div className='flex flex-row items-center gap-1 mb-15 md:mb-5'>
                   <img src={check} />
                   <p className='text-center md:text-left text-accent'>
                     Work from your home
@@ -206,7 +206,7 @@ const Careers = () => {
             <div className='flex justify-center'>
               <a href="https://nmsrecruitment.nmsapps.com/">
                 <button
-                  className="rounded-lg font-semibold bg-primary text-white text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
+                  className="rounded-30px bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
                   Apply Now
                 </button>
               </a>
