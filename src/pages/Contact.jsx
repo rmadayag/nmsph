@@ -172,12 +172,12 @@ const Contact = () => {
           <div className='grid md:grid-cols-2 gap-10'>
             {/* Image */}
             <div class="relative w-full">
-              <iframe className="md:w-full w-[350px] md:h-[620px] h-[357px] md:rounded-lg rounded-sm" frameborder="" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=nms%20baguio%20city+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
+              <iframe className="md:w-full w-[350px] md:h-[620px] h-[357px] md:rounded-30px rounded-15px" frameborder="" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=nms%20baguio%20city+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
             </div>
 
             {/* Left Item */}
             <div className='flex flex-col w-full'>
-              <div className="bg-bgcolor md:w-full w-full md:rounded-lg rounded-sm px-20 py-20 shadow-shadow mb-15 md:mb-0">
+              <div className="bg-bgcolor md:w-full w-full md:rounded-30px rounded-15px px-20 py-20 shadow-shadow mb-15 md:mb-0">
 
                 <form onSubmit={handleSubmit} className="w-full mx-auto p-4">
                   <div className="mb-4">
@@ -190,7 +190,7 @@ const Contact = () => {
                       onChange={handleChange}
                       onBlur={handleBlur}
                       className={`text-accent w-full p-3 border ${validity.name ? 'border-gray-300' : 'border-red-500'
-                        } rounded-lg focus:outline-none focus:border-blue-500`}
+                        } rounded-30px focus:outline-none focus:border-blue-500`}
                     />
                     {!validity.name && (
                       <p className="text-red-500 text-sm mt-1">Please enter a valid name.</p>
@@ -207,7 +207,7 @@ const Contact = () => {
                       onChange={handleChange}
                       onBlur={handleBlur}
                       className={`text-accent w-full p-3 border ${validity.email ? 'border-gray-300' : 'border-red-500'
-                        } rounded-lg focus:outline-none focus:border-blue-500`}
+                        } rounded-30px focus:outline-none focus:border-blue-500`}
                     />
                     {!validity.email && (
                       <p className="text-red-500 text-sm mt-1">Please enter a valid email address.</p>
@@ -224,7 +224,7 @@ const Contact = () => {
                       onChange={handleChange}
                       onBlur={handleBlur}
                       className={`text-accent w-full p-3 border ${validity.phoneNumber ? 'border-gray-300' : 'border-red-500'
-                        } rounded-lg focus:outline-none focus:border-blue-500`}
+                        } rounded-30px focus:outline-none focus:border-blue-500`}
                     />
                     {!validity.phoneNumber && (
                       <p className="text-red-500 text-sm mt-1">Please enter a valid phone number.</p>
@@ -241,7 +241,7 @@ const Contact = () => {
                       onBlur={handleBlur}
                       rows="7"
                       className={`text-accent w-full p-3 border  ${validity.message ? 'border-gray-300' : 'border-red-500'
-                        } rounded-lg focus:outline-none focus:border-blue-500`}
+                        } rounded-30px focus:outline-none focus:border-blue-500`}
                     />
                     {!validity.message && (
                       <p className="text-red-500 text-sm mt-1">Please enter a message.</p>
@@ -268,7 +268,7 @@ const Contact = () => {
                   <div className="text-left">
                     <button
                       type="submit"
-                      className={`rounded-lg bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80 ${!isFormValid() || isSubmitting || formSubmitted ? 'cursor-not-allowed opacity-50' : ''
+                      className={`rounded-30px bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80 ${!isFormValid() || isSubmitting || formSubmitted ? 'cursor-not-allowed opacity-50' : ''
                         }`}
                       disabled={!isFormValid() || isSubmitting || formSubmitted}
                     >
