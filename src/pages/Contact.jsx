@@ -173,7 +173,7 @@ const Contact = () => {
         </div>
         {/* Right Side */}
         <div className='flex flex-col h-full justify-center gap-5'>
-          <div class="grid grid-cols-1 md:grid-cols-1 gap-5 bg-white shadow-shadow">
+          <div class="grid grid-cols-1 md:grid-cols-1 gap-5 bg-white shadow-shadow md:rounded-30px rounded-15px">
             <form onSubmit={handleSubmit} className="w-full mx-auto p-4">
               <div className="mb-4">
                 <input
