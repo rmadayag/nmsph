@@ -133,7 +133,7 @@ function HomePage() {
               </p>
               <a href="/careers">
                 <button
-                  className="rounded-lg bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
+                  className="md:rounded-lg rounded-sm bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
                   Join Our Team
                 </button>
               </a>
