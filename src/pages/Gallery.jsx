@@ -37,7 +37,6 @@ const Gallery = () => {
         </div>
       </motion.section>
 
-
       <motion.section
         initial="initial"
         animate="animate"
