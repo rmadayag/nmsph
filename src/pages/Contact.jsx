@@ -148,7 +148,7 @@ const Contact = () => {
             <h1 className='text-h2 font-semibold text-left md:text-display md:text-left text-white '>
               Contact Us
             </h1>
-            <p className='max-w-xl text-left md:text-left text-white text-14 md:text-16 my-15 md:my-20'>
+            <p className='max-w-xl text-left md:text-left text-white text-14 md:text-16 py-5'>
               Get in touch and let us kno how we can help
             </p>
           </div>
