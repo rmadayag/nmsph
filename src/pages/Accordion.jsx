@@ -16,7 +16,7 @@ const Accordion = ({ items }) => {
       {items.map((item, index) => (
         <div
           key={index}
-          className={`p-5 rounded-lg shadow-shadow  ${activeIndex === index ? 'bg-primary' : 'bg-white'
+          className={`p-5 rounded-30px shadow-shadow  ${activeIndex === index ? 'bg-primary' : 'bg-white'
             }`}
           onClick={() => toggleAccordion(index)}
           style={{ cursor: 'pointer' }} // Add this style for the cursor
