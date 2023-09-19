@@ -89,15 +89,15 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     if (!isFormValid() || isSubmitting) {
       console.error('Form is not valid or submission is in progress');
       // Display an error message to the user or handle the validation error
       return;
     }
-
+  
     setIsSubmitting(true);
-
+  
     // Send the email using EmailJS
     emailjs
       .send(
@@ -111,7 +111,7 @@ const Contact = () => {
           console.log('Email sent successfully:', result);
           // You can display a success message or redirect the user here
           setFormSubmitted(true);
-
+  
           // Reset form data after successful submission
           setFormData({
             name: '',
@@ -119,7 +119,7 @@ const Contact = () => {
             phoneNumber: '',
             message: '',
           });
-
+  
           // Reset the formSubmitted state to allow another submission
           setTimeout(() => {
             setFormSubmitted(false);
@@ -134,25 +134,23 @@ const Contact = () => {
         setIsSubmitting(false);
       });
   };
-
+  
   return (
     <>
       <motion.section
-          id="contact"
+        id="contact"
         initial="initial"
         animate="animate"
         variants={leftVariants} // Apply left animation
         className='bg-center bg-cover bg-banner h-[400px] lg:h-[500px] bg-no-repeat relative'>
-        <div className='w-full h-screen'>
-          <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
-            <div className='md:left-[10%] max-w-[530px] m-auto absolute p-4'>
-              <h1 className='md:text-display text-h2 font-semibold text-left text-white'>
+        <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
+          <div className='md:left-[10%] max-w-[530px] m-auto absolute p-4'>
+            <h1 className='text-h2 font-semibold text-left md:text-display md:text-left text-white '>
               Contact Us
-              </h1>
-              <p className='max-w-[600px] text-white text-14 md:text-16 py-5'>
+            </h1>
+            <p className='max-w-xl text-left md:text-left text-white text-14 md:text-16 my-15 md:my-20'>
               Get in touch and let us kno how we can help
-              </p>
-            </div>
+            </p>
           </div>
         </div>
       </motion.section>
@@ -177,7 +175,7 @@ const Contact = () => {
 
             {/* Left Item */}
             <div className='flex flex-col w-full'>
-              <div className="bg-bgcolor md:w-full w-full md:rounded-30px rounded-15px p-10 shadow-shadow mb-15 md:mb-0">
+              <div className="bg-bgcolor md:w-full w-full md:rounded-30px rounded-15px px-20 py-20 shadow-shadow mb-15 md:mb-0">
 
                 <form onSubmit={handleSubmit} className="w-full mx-auto p-4">
                   <div className="mb-4">
@@ -268,7 +266,7 @@ const Contact = () => {
                   <div className="text-left">
                     <button
                       type="submit"
-                      className={`className="rounded-30px bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80" ${!isFormValid() || isSubmitting || formSubmitted ? 'cursor-not-allowed opacity-50' : ''
+                      className={`rounded-30px bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80 ${!isFormValid() || isSubmitting || formSubmitted ? 'cursor-not-allowed opacity-50' : ''
                         }`}
                       disabled={!isFormValid() || isSubmitting || formSubmitted}
                     >
@@ -281,6 +279,9 @@ const Contact = () => {
           </div>
         </div>
       </motion.section>
+
+
+
 
     </>
   );
