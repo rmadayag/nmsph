@@ -4,7 +4,6 @@ export default withMT({
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      
       backgroundImage: {
         'hero': "url('/hero.svg')",
         'banner': "url('/inner-banner.png')",
@@ -39,8 +38,8 @@ export default withMT({
         'semibold': '600',
       },
       borderRadius: {
-        'sm': '15px',
-        'lg': '30px',
+        '15px': '15px',
+        '30px': '30px',
         'full': '9999px',
       },
       // Button

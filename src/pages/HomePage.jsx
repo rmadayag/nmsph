@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion'
 import lifestyles from '/home-2.png';
@@ -133,7 +134,7 @@ function HomePage() {
               </p>
               <a href="/careers">
                 <button
-                  className="md:rounded-lg rounded-sm bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
+                  className="rounded-30px bg-primary text-white font-semibold text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
                   Join Our Team
                 </button>
               </a>
@@ -166,7 +167,7 @@ function HomePage() {
             <div>
               <a href='/about'>
                 <button
-                  className="rounded-lg font-semibold bg-primary text-white text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
+                  className="rounded-30px font-semibold bg-primary text-white text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
                   Read more
                 </button>
               </a>
@@ -182,8 +183,8 @@ function HomePage() {
         className='bg-bgcolor'>
         <div className='container items-center mx-auto py-40 md:py-70'>
           <div class="flex flex-wrap mx-16px md:mx-100px">
-            <div className="md:rounded-lg rounded-sm bg-primary relative px-5 lg:max-w-5xl w-full ml-auto min-h-[24rem] flex lg:flex-row flex-col-reverse items-center">
-              <Swiper className='md:rounded-lg rounded-sm w-full md:w-[454px] h-169 md:h-[240px] lg:absolute md:bottom-50 md:-left-60 object-cover shadow-shadow cursor-pointer'
+            <div className="md:rounded-30px rounded-15px bg-primary relative px-5 lg:max-w-5xl w-full ml-auto min-h-[24rem] flex lg:flex-row flex-col-reverse items-center">
+              <Swiper className='md:rounded-30px rounded-15px w-full md:w-[454px] h-169 md:h-[240px] lg:absolute md:bottom-50 md:-left-60 object-cover shadow-shadow cursor-pointer'
                 spaceBetween={40}
                 centeredSlides={true}
                 autoplay={{
@@ -209,7 +210,7 @@ function HomePage() {
                 }}
               >
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Equal Opportunity Hiring
@@ -222,7 +223,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Strong Company Culture
@@ -235,7 +236,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Forward-Thinking
@@ -248,7 +249,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Knowledge Development
@@ -261,7 +262,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Harmony in Diversity
@@ -274,7 +275,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-5px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Work Hard, Party Harder
@@ -287,7 +288,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Earning and Giving Back
@@ -300,7 +301,7 @@ function HomePage() {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="md:rounded-lg rounded-sm bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
+                  <div className="md:rounded-30px rounded-15px bg-white text-accent relative px-5 py-5 flex lg:flex-row flex-col-reverse items-center h-169 md:h-[240px]">
                     <div>
                       <h2 className="text-14 md:text-16 font-semibold mb-5 ">
                         Comfortable Work Environment
@@ -317,14 +318,14 @@ function HomePage() {
                 <h2 className="text-h3 md:text-h2 font-semibold text-white md:mx-60 md:w-2/5">
                   Modern People with Modern Lifestyles
                 </h2>
-                <p className="lg:text-left text-justify max-w-lg text-14 md:text-16 md:my-20 my-15 text-white leading-6 md:mx-60 md:w-2/5">
+                <p className="lg:text-left text-justify max-w-lg text-14 md:text-16 text-white leading-6 md:mx-60 md:w-2/5">
                   "Be part of our constantly growing family and help us by becoming a valued building block for our innovative, unique and progressive services."
                 </p>
               </div>
               <img
                 src={lifestyles}
                 alt=""
-                className="lg:h-[25rem] h-80 lg:absolute bottom-0 -right-0 object-cover rounded-lg"
+                className="lg:h-[25rem] h-80 lg:absolute bottom-0 -right-0 object-cover rounded-30px"
               />
             </div>
 
@@ -351,11 +352,11 @@ function HomePage() {
           <div className='flex flex-col h-full justify-center gap-5'>
             <h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center text-accent'> We provide the best services for our customers</h3>
             <motion.div class="grid grid-cols-1 md:grid-cols-2 grid-flow-row-2 gap-5">
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-lg shadow-shadow py-20 md:py-20 px-20 md:px-20'>
-                <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow p-10'>
+                <motion.div className='md:w-1/2 mx-auto'>
                   <img src={messaging} class="mx-auto" />
                 </motion.div>
-                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center mb-15 md:mb-20'
+                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center py-5'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -364,7 +365,7 @@ function HomePage() {
                   Build Messaging Platforms
                 </motion.h3>
 
-                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center mb-15 md:mb-20'
+                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -374,11 +375,11 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-lg shadow-shadow py-20 md:py-20 px-20 md:px-20'>
-                <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow  p-10'>
+                <motion.div className='md:w-1/2 mx-auto'>
                   <img src={design} class="mx-auto" />
                 </motion.div>
-                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center mb-15 md:mb-20'
+                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center py-5'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -387,7 +388,7 @@ function HomePage() {
                   Design & Develop Apps
                 </motion.h3>
 
-                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center mb-15 md:mb-20'
+                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -397,11 +398,11 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-lg shadow-shadow py-20 md:py-20 px-20 md:px-20'>
-                <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow  p-10 md:h-[300px]'>
+                <motion.div className='md:w-1/2 mx-auto'>
                   <img src={moderate} class="mx-auto" />
                 </motion.div>
-                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center mb-15 md:mb-20'
+                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center py-5'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -410,7 +411,7 @@ function HomePage() {
                   Moderate & improve websites
                 </motion.h3>
 
-                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center mb-15 md:mb-20'
+                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -420,11 +421,11 @@ function HomePage() {
                 </motion.p>
               </div>
 
-              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-sm md:rounded-lg shadow-shadow py-20 md:py-20 px-20 md:px-20'>
-                <motion.div className='md:w-1/2 mx-auto pb-15 md:pb-20'>
+              <div className=' bg-white hover:bg-primary text-accent hover:text-white rounded-15px md:rounded-30px shadow-shadow  p-10 md:h-[300px]'>
+                <motion.div className='md:w-1/2 mx-auto'>
                   <img src={voice} class="mx-auto" />
                 </motion.div>
-                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center mb-15 md:mb-20'
+                <motion.h3 className='text-h3 font-semibold text-center md:text-h3 md:text-center py-5'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -433,7 +434,7 @@ function HomePage() {
                   Voice customer service
                 </motion.h3>
 
-                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center mb-15 md:mb-20'
+                <motion.p className='text-14 md:text-16 max-w-xl text-center md:text-center'
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
@@ -466,7 +467,7 @@ function HomePage() {
                   <img
                     src={`https://drive.google.com/uc?id=${images[0].id}`}
                     alt={images[0].name}
-                    className='block h-full w-full rounded-sm md:rounded-lg object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
+                    className='block h-full w-full rounded-15px md:rounded-30px object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
                     onClick={() => handleImageClick(index)}
                   />
                 )}
@@ -478,7 +479,7 @@ function HomePage() {
                   <img
                     src={`https://drive.google.com/uc?id=${image.id}`}
                     alt={image.name}
-                    className='block h-full w-full rounded-sm md:rounded-lg object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
+                    className='block h-full w-full rounded-15px md:rounded-30px object-cover object-center cursor-pointer hover:scale-95 transition-transform duration-300 ease-in-out'
                     onClick={() => handleImageClick(index)}
                   />
                 </div>
@@ -510,7 +511,7 @@ function HomePage() {
                         </svg>
                       </button>
                     )}
-                    <button onClick={handleCloseModal} type="button" class="absolute -right-10 -top-10 text-white bg-primary hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="popup-modal">
+                    <button onClick={handleCloseModal} type="button" class="absolute -right-10 -top-10 text-white bg-primary hover:bg-gray-200 hover:text-gray-900 rounded-30px text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="popup-modal">
                       <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                       </svg>
@@ -529,7 +530,7 @@ function HomePage() {
           <div className='flex justify-center'>
             <a href='/gallery'>
               <button
-                className="rounded-lg font-semibold bg-primary text-white text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
+                className="rounded-30px font-semibold bg-primary text-white text-14 md:text-16 w-sm-button h-sm-button md:w-lg-button md:h-lg-button hover:bg-primary/80">
                 View more
               </button>
             </a>
@@ -544,7 +545,7 @@ function HomePage() {
         className='bg-secondary'>
         <div className='bg-secondary py-40 md:py-70'>
           <div className='container items-center mx-auto'>
-            <motion.h2 className='text-h3 font-semibold text-center md:text-h2 md:text-center text-accent mb-15 md:mb-20'
+            <motion.h2 className='text-h3 font-semibold text-center md:text-h2 md:text-center text-accent'
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
@@ -553,7 +554,7 @@ function HomePage() {
               Testimonial
             </motion.h2>
 
-            <motion.p className='text-14 md:text-16 text-center md:text-center text-accent mb-15 md:mb-20'
+            <motion.p className='text-14 md:text-16 text-center md:text-center text-accent py-5'
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
@@ -594,7 +595,7 @@ function HomePage() {
               }}
             >
               <SwiperSlide>
-                <div class="rounded-lg bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
+                <div class="rounded-30px bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
                   <div class="flex items-center">
                     <img
                       src={employee1}
@@ -610,7 +611,7 @@ function HomePage() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div class="rounded-lg bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
+                <div class="rounded-30px bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
                   <div class="flex items-center">
                     <img
                       src={employee2}
@@ -626,7 +627,7 @@ function HomePage() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div class="rounded-lg bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
+                <div class="rounded-30px bg-white hover:bg-primary text-accent hover:text-white p-4 w-full shadow-shadow">
                   <div class="flex items-center">
                     <img
                       src={employee3}
