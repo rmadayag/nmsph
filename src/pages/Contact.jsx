@@ -249,7 +249,7 @@ const Contact = () => {
                   <div className="mb-4">
                     <ReCAPTCHA
                       ref={reCaptchaRef}
-                      sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                      sitekey="6Ldoi8knAAAAAMxL1Tq1rn0hRdMYRxsTv5Hgr0SR"
                       onChange={handleRecaptchaChange}
                     />
                     {!validity.recaptcha && (
